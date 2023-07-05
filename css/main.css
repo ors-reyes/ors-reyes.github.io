@@ -47,10 +47,11 @@ body{
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 8.4% 8.4% 1fr 17.9% 17.9% 8.4%;
+    grid-template-rows: 8.4% 10% 10% 0.1fr 17.9% 17.9% 8.4%;
     grid-template-areas: 
         "adUp       adUp"
-        "logoIn     rrss"
+        "logoIn     logoIn"
+        "rrss     rrss"
         "slide      slide"
         "panelLeft  ."
         "mapa       typed"
@@ -98,11 +99,9 @@ body{
     margin-left: 50%;
 }
 .imgrrss{
-    position: relative;
     height: 100%;
-    right: 0;
-    transform: translateX(-100%);
-    margin-left: 100%;
+    transform: translateX(-50%);
+    margin-left: 50%;
 }
 .imgpanelLeft{
     height: 100%;
