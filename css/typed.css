@@ -1,11 +1,9 @@
 .typed {
     position: absolute;
     z-index: 20000;
-    width: 100%;
+    width: 50%;
     background: rgba(0, 217, 217, 0.2);
-    font-family: monospace;
     color: rgba(255, 255, 255,.7);
-    /* font-size: 1.5em; */
     padding: 5px 10px;
     border-radius: 5px;
 }

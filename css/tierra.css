@@ -1,7 +1,7 @@
 :root{
-  --tam : 106px
+  --tam : 53px
 }
-.mapa {
+.imgmapa {
     width: var(--tam);
     height: var(--tam);
     position: relative;
@@ -15,7 +15,7 @@
     border: 1px solid rgba(255, 255, 255,.3);
     color: rgb(253, 8, 61);
   }
-  .mapa::after,.mapa::before{
+  .imgmapa::after,.imgmapa::before{
     content: "";
     position: absolute;
     width: var(--tam);
@@ -31,7 +31,7 @@
     opacity: 0.3;
     box-shadow: 0px 7px 20px 0 rgba(0, 255, 255, .5);
   }
-  .mapa::before{
+  .imgmapa::before{
     animation: before 10s infinite linear;
   }
   @keyframes after{

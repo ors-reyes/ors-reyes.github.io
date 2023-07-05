@@ -1,17 +1,22 @@
 .contenedor2{
     position: absolute;
-    width: 100%;
+    width: 90%;
+    /* height: 150px; */
     overflow: hidden;
     z-index: 10000;
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 .slider-contenedor{
     width: 100%;
+    /* height: 150px; */
     display: flex;
 }
 
 .contenido-slider{
     width: 100%;
+    /* height: 150px; */
     /* height: 600px; */
     display: flex;
     justify-content: space-around;
@@ -20,7 +25,9 @@
     /* outline: 1px solid red; */
 }
 .contenido-slider > img{
+    height: 150px;
     width: 400px;
+    object-fit: contain;
 }
 
 .contenido-slider > div{
