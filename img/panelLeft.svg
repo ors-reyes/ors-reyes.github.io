@@ -6,18 +6,9 @@
     <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="rgb(0,217,217)" flood-opacity="0.5" />
 </filter>
 <style type="text/css">
-	.st0{fill:#000;stroke:none;stroke-width:0.5;filter:url(#shadow);opacity: 0.7;cursor: pointer;transition: all 0.3s;}
-	.st0:hover{
-		fill:rgb(0,217,217);filter:url(#shadow);opacity: 0.3;
-	}
-	/* .st0:first-of-type + path {
-  		fill:#f00;
-	} */
-	.st1{fill:#FFF;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#000;filter:url(#shadow);opacity: 0.5;}
 </style>
 <g>
 	<path class="st0" d="M0,9.3c133.5,83,240.7,196,332.4,326.8c19.7,27.8,21.6,34.1-0.4,51.8C229.7,472.2,142.8,507.5,0,579.7V9.3z"/>
-	<path class="st1" d="M286.2,258c12.9,16.1,76.6,91.9,77.1,107.8c0.5,20.4-51.4,51.1-67.5,62.4c10.4-9.3,65-45.3,64.5-62.4
-		C360,353.3,290.5,263.6,286.2,258"/>
 </g>
 </svg>

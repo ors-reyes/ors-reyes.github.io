@@ -14,6 +14,7 @@
     animation: tierraGirando 20s infinite linear;
     border: 1px solid rgba(255, 255, 255,.3);
     color: rgb(253, 8, 61);
+    cursor: pointer;
   }
   .imgmapa::after,.imgmapa::before{
     content: "";
