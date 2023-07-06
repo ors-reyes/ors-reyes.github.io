@@ -10,7 +10,7 @@
 	<stop  offset="100" style="stop-color:rgb(255,255,255);stop-opacity:0"/>
 </radialGradient>
 <style type="text/css">
-	@import url("../css/rrss.css");
+	/* @import url("../css/rrss.css"); */
 	:root{--verTxt : 0.5s;}
 	.fondo{fill-rule:evenodd;clip-rule:evenodd;fill: transparent;}
 	.fndTxt{fill-rule:evenodd;clip-rule:evenodd;fill:rgba(0, 217, 217,1);opacity: 0.5;}
