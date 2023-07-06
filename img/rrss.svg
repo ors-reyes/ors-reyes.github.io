@@ -25,7 +25,7 @@
 	.txtFace{
 		}
 	.txtTigo{		
-		fill: #ff0;
+		fill: #fff;
 	}
 
 	.tra01,.tra02,.tra03,.tra04,.tra05,.tra06,.tra07,.tra08,.tra09,.tra10,.tra11,.tra12{
