@@ -12,7 +12,7 @@
 <style type="text/css">
 	@import url("../css/rrss.css");
 	:root{--verTxt : 0.5s;}
-	.fondo{fill-rule:evenodd;clip-rule:evenodd;fill: rgba(255, 255, 255, 0);}
+	.fondo{fill-rule:evenodd;clip-rule:evenodd;fill: transparent;}
 	.fndTxt{fill-rule:evenodd;clip-rule:evenodd;fill:rgba(0, 217, 217,1);opacity: 0.5;}
 	
 

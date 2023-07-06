@@ -97,7 +97,7 @@ body{
     transform: translateX(-50%);
     margin-left: 50%;
 }
-.imgrrss{
+#imgrrss{
     /* height: 100%; */
     transform: translateX(-50%);
     margin-left: 50%;
@@ -152,7 +152,7 @@ body{
         transform: translateX(-50%);
         margin-left: 50%;
     }
-    .imgrrss{
+    #imgrrss{
         height: 100%;
         transform: translateX(-50%);
         margin-left: 50%;

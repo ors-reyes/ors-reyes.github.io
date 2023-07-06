@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-    const svg = document.getElementById('rrss').contentDocument
+    const svg = document.getElementById('imgrrss').contentDocument
     const clickTelefono = svg.querySelector('.clickTelef')
     const telefono = svg.querySelector('.strokeTelef')
     const clickFace = svg.querySelector('.clickFace')
