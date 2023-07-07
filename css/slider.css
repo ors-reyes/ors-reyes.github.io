@@ -28,7 +28,7 @@
         width: 150px;
     }
 }
-@media screen and (max-width:140px){
+@media screen and (max-width:1400px){
     .contenido-slider > img{
         width: 200px;
     }
