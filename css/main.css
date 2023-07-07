@@ -33,8 +33,6 @@ body{
     left: 50%;
     top: 10%;
 }
-.uno .fondo .panelLeft{
-}
 .uno .fondo .fndPie{
     width: 100vw;
     bottom: 0;
@@ -57,7 +55,6 @@ body{
         "logoIn     logoIn"
         "rrss     rrss"
         "slide      slide"
-        /* "panelLeft  ." */
         "mapa       imgtyped"
         "adDown     adDown"
     ;
@@ -79,9 +76,13 @@ body{
 }
 .mapa{grid-area: mapa;
     /* background: rgba(0, 0, 255, 0.5); */
+    display: flex;
+    align-self: flex-end;
 }
 .imgtyped{grid-area: imgtyped;
     /* background: rgba(255, 0, 255, 0.5); */
+    display: flex;
+    align-self: flex-end;
 }
 .adDown{grid-area: adDown;
     position: relative;
@@ -134,7 +135,6 @@ body{
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-columns: 1fr 1fr 1fr;
-        /* grid-template-rows: 8.4% 8.4% 1fr 17.9% 17.9% 8.4%; */
         grid-template-areas: 
             "adUp           adUp    adUp"
             "logoIn         .       rrss"
