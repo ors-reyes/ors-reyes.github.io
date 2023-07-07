@@ -28,6 +28,11 @@
         width: 150px;
     }
 }
+@media screen and (max-width:140px){
+    .contenido-slider > img{
+        width: 200px;
+    }
+}
 /* 
 .contenido-slider > div{
     width: 40%;
