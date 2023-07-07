@@ -152,6 +152,9 @@ body{
         transform: translateX(-50%);
         margin-left: 50%;
     }
+    .slide{grid-area: slide;
+        /* background: rgba(0, 255, 255, 0.5); */
+    }
     #imgrrss{
         height: 100%;
         transform: translateX(-50%);

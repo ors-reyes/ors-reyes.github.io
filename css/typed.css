@@ -1,7 +1,7 @@
 .typed {
-    position: absolute;
+    position: relative;
     z-index: 20000;
-    width: 50%;
+    width: 95%;
     background: rgba(0, 217, 217, 0.2);
     color: rgba(255, 255, 255,.7);
     padding: 5px 10px;
