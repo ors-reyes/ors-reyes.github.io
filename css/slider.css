@@ -23,19 +23,16 @@
     width: 250px;
     object-fit: contain;
 }
+@media screen and (max-width:375px){
+    .contenido-slider > img{
+        width: 150px;
+    }
+}
 /* 
 .contenido-slider > div{
     width: 40%;
 }
-@media screen and (max-width:900px){
-    .contenido-slider > img{
-        width: 250px;
-    }
 
-    .contenido-slider > div{
-        width: 40%;
-    }
-}
 
 
 @media screen and (max-width:600px){
