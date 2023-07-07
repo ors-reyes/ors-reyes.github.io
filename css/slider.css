@@ -20,7 +20,7 @@
     flex-shrink: 0;
 }
 .contenido-slider > img{
-    width: 300px;
+    width: 250px;
     object-fit: contain;
 }
 /* 
