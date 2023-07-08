@@ -22,7 +22,6 @@
 
 .up{
     grid-area: up;
-    outline: 1px solid red;
     background: url(../img/presentacion/adUp.svg);
     background-size: cover;
     background-position: center center;
@@ -30,7 +29,6 @@
 }
 .logo{
     grid-area: logo;
-    outline: 1px solid red;
     background: url(../img/presentacion/logoIn.svg);
     background-size: contain;
     background-position: center center;
@@ -38,7 +36,6 @@
 }
 .rrss{
     grid-area: rrss;
-    outline: 1px solid red;
 }
 .imgRrss{
     height: 100%;
@@ -47,7 +44,6 @@
 }
 .tecnico{
     grid-area: tecnico;
-    outline: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,11 +51,9 @@
 }
 .slide{
     grid-area: slide;
-    outline: 1px solid red;
 }
 .asistencia{
     grid-area: asistencia;
-    outline: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,15 +61,12 @@
 }
 .mundi{
     grid-area: mundi;
-    outline: 1px solid red;
 }
 .typing{
     grid-area: typing;
-    outline: 1px solid red;
 }
 .down{
     grid-area: down;
-    outline: 1px solid red;
     background: url(../img/presentacion/adDown.svg);
     background-size: cover;
     background-position: center center;
