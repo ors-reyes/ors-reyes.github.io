@@ -1,0 +1,83 @@
+.presentacion{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    overflow: hidden;
+    display: grid;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 5% 8% 12% 140px 150px 10% 5%;
+    grid-template-areas:
+        "up         up"           
+        "logo       logo"         
+        "rrss       rrss"         
+        "slide      slide"         
+        "tecnico    asistencia"    
+        "mundi      typing"        
+        "down       down"         
+        ;
+}
+
+.up{
+    grid-area: up;
+    outline: 1px solid red;
+    background: url(../img/presentacion/adUp.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.logo{
+    grid-area: logo;
+    outline: 1px solid red;
+    background: url(../img/presentacion/logoIn.svg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.rrss{
+    grid-area: rrss;
+    outline: 1px solid red;
+}
+.imgRrss{
+    height: 100%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+.tecnico{
+    grid-area: tecnico;
+    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.slide{
+    grid-area: slide;
+    outline: 1px solid red;
+}
+.asistencia{
+    grid-area: asistencia;
+    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.mundi{
+    grid-area: mundi;
+    outline: 1px solid red;
+}
+.typing{
+    grid-area: typing;
+    outline: 1px solid red;
+}
+.down{
+    grid-area: down;
+    outline: 1px solid red;
+    background: url(../img/presentacion/adDown.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

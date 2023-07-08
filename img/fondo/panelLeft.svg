@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 382.6 589" style="enable-background:new 0 0 382.6 589;" xml:space="preserve">
+<filter id='shadow' color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="rgb(0,217,217)" flood-opacity="0.5" />
+</filter>
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#000;filter:url(#shadow);opacity: 0.5;}
+</style>
+<g>
+	<path class="st0" d="M0,9.3c133.5,83,240.7,196,332.4,326.8c19.7,27.8,21.6,34.1-0.4,51.8C229.7,472.2,142.8,507.5,0,579.7V9.3z"/>
+</g>
+</svg>

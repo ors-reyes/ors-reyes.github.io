@@ -1,0 +1,51 @@
+.fondo{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    overflow: hidden;
+}
+.fndCentro{
+    position: absolute;
+    width: 250vw;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+}
+.panelLeft{
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    left: 0;
+}
+.fndPie{
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+}
+@media screen and (min-width: 800px) {
+    .fndPie{
+        position: absolute;
+        width: 50vw;
+        left: 0;
+        bottom: 0;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .fndPie{
+        position: absolute;
+        width: 50vw;
+        left: 0;
+        bottom: 0;
+    }
+    .fndCentro{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        transform: translateX(0);
+        left: 0;
+        top: 0;
+    }
+}
