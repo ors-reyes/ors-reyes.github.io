@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="css/fondo.css" />
     <link rel="stylesheet" href="css/presentacion.css" />
     <link rel="stylesheet" href="css/glass.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/tierra.css" />
+    <link rel="stylesheet" href="css/typing.css" />
     <!-- <script defer src="js/matrix.js"></script> -->
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/rrss.js"></script>
+    <script defer src="js/typing.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -41,12 +47,19 @@
         <div class="up"></div>
         <div class="logo"></div>
         <div class="rrss">
+            <object
+              id="imgrrss"
+              type="image/svg+xml"
+              data="img/presentacion/rrss.svg"
+            ></object>
+          </div>
+        <!-- <div id="rrss">
           <object
             class="imgRrss"
             type="image/svg+xml"
             data="img/presentacion/rrss.svg"
           ></object>
-        </div>
+        </div> -->
         <div class="tecnico">
           <div class="glass">
             <div class="box">
@@ -66,7 +79,19 @@
             </div>
           </div>
         </div>
-        <div class="slide"></div>
+        <div class="slide">
+            <div id="sliderContenedor">
+                <div class="sliderItem"><img src="img/slider/animacion.png" alt=""></div>
+                <div class="sliderItem"><img src="img/slider/animacion2.png" alt=""></div>
+                <div class="sliderItem"><img src="img/slider/animacion3.png" alt=""></div>
+                <div class="sliderItem"><img src="img/slider/animacion4.png" alt=""></div>
+                <div class="sliderItem"><img src="img/slider/animacion5.png" alt=""></div>
+                <div class="sliderItem"><img src="img/slider/animacion6.png" alt=""></div>
+                <div class="sliderItem"><img src="img/slider/animacion7.png" alt=""></div>
+            </div>
+            <div class="btn next"><img src="img/slider/next.svg" alt="next"></div>
+            <div class="btn prev"><img src="img/slider/prev.svg" alt="prev"></div>
+        </div>
         <div class="asistencia">
             <div class="glass">
                 <div class="box">
@@ -86,10 +111,16 @@
                 </div>
               </div>
         </div>
-        <div class="mundi"></div>
-        <div class="typing"></div>
+        <div class="mundi">
+            <div class="mapa"></div>
+        </div>
+        <div class="typing">
+            <span id="demo"></span>
+        </div>
         <div class="down"></div>
       </div>
     </div>
+    <section><h2>DOS</h2></section>
+    <script src="js/rrss.js"></script>
   </body>
 </html>

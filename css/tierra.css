@@ -1,0 +1,79 @@
+:root{
+    --tam : 50px
+  }
+  .mapa {
+      width: var(--tam);
+      height: var(--tam);
+      position: absolute;
+      margin: auto;
+      border-radius: 50%;
+      box-shadow: 0px 10px 40px 1px rgb(0, 0, 0) inset,
+                  0px 7px 20px 0 rgb(255, 255, 255);
+      background: url(../img/tierra2.svg);
+      background-size: cover;
+      animation: tierraGirando 20s infinite linear;
+      border: 1px solid rgba(255, 255, 255,.3);
+      cursor: pointer;
+    }
+    .mapa::after,.mapa::before{
+      content: "";
+      position: absolute;
+      width: var(--tam);
+      height: var(--tam);
+      top: 0;    left: 0;    right: 0;    bottom: 0;
+      margin: auto;
+      border-radius: 50%;
+      border-style: solid;
+      border-color: rgb(255, 255, 255) transparent rgb(255, 255, 255) transparent;
+      border-width: 0.1em 0 0.1em 0;
+      border-radius: 50%;
+      animation: after 20s infinite linear;
+      opacity: 0.3;
+      box-shadow: 0px 7px 20px 0 rgba(0, 255, 255, .5);
+    }
+    .mapa::before{
+      animation: before 10s infinite linear;
+    }
+    @keyframes after{
+      0%{
+        transform: rotate(-360deg) scale(1);
+      }
+      50%{
+        transform: rotate(0deg) scale(1.5);
+      }
+      100%{
+        transform: rotate(360deg) scale(1);
+      }
+    }
+    @keyframes before{
+      0%{
+        transform: rotate(-360deg) scale(1.5);
+      }
+      50%{
+        transform: rotate(0deg) scale(1);
+      }
+      100%{
+        transform: rotate(360deg) scale(1.5);
+      }
+    }
+    @keyframes tierraGirando {
+        0%{
+          background-position: left center;
+          box-shadow: 0px 10px 100px 10px rgba(0,0,0,.15) inset,
+                  0px 7px 20px 0 rgba(255,255,255,.15);
+        }
+        25%{
+          box-shadow: 0px 5px 20px 10px rgba(0,0,0,.15) inset,
+          0px 3px 10px 0 rgba(255,255,255,.15);
+        }
+        50%{
+          box-shadow: 0px 5px 20px 10px rgba(0,0,0,.15) inset,
+          0px 3px 10px 0 rgba(255,255,255,.15);
+        }
+        100%{
+          background-position: -410px center;
+          box-shadow: 0px 10px 100px 10px rgba(0,0,0,.15) inset,
+                  0px 7px 20px 0 rgba(255,255,255,.15);
+        }
+    }
+    

@@ -69,7 +69,6 @@
     border: none;
     box-shadow: none;
     font-weight: bolder;
-    /* opacity: 0; */
     transition: 0.5s;
     transition-delay: 0.25s;
 }

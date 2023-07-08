@@ -37,7 +37,7 @@
 .rrss{
     grid-area: rrss;
 }
-.imgRrss{
+#imgrrss{
     height: 100%;
     transform: translateX(-50%);
     margin-left: 50%;
@@ -61,9 +61,17 @@
 }
 .mundi{
     grid-area: mundi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 .typing{
     grid-area: typing;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 .down{
     grid-area: down;
