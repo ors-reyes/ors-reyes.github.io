@@ -58,7 +58,7 @@
 }
 .elements.name {
     top: 85px;
-    left: -30px;
+    left: 0;
     right: 0;
     width: 100%;
     padding: 5px;
@@ -69,12 +69,13 @@
     border: none;
     box-shadow: none;
     font-weight: bolder;
-    opacity: 0;
+    /* opacity: 0; */
     transition: 0.5s;
     transition-delay: 0.25s;
 }
 .box:hover .elements.name {
     top: 5px;
+    left: -30px;
     opacity: 1;
 }
 .elements.content {
