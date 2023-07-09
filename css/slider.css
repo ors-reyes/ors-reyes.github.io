@@ -1,39 +1,27 @@
-:root{--w : 100vw;}
-#slider{
+:root{  --width : 350px;    --height : 200px;   }
+.slider{
     position: relative;
-    background: #fff;
-    border-radius: 1px;
-    width: var(--w);
+    width: var(--width);   height: var(--height);
     overflow: hidden;
-    margin: auto;
-    /* margin-top: 10px; */
-    box-shadow: 0 0 1px black;
-    cursor: grab;
-    z-index: 500;
+    transform: translateX(-50%);    left: 50%;
 }
-#slider:active{cursor: grabbing;}
-#sliderContenedor{
+.slides{
+    width: 5000px;
     display: flex;
-    width: calc(var(--w) * 3);
-    margin-left: calc(var(--w) * -1);
-}
-#sliderContenedor.transition{transition: all 0.5s ease-in-out;}
-.sliderItem{width: var(--w);height: calc(var(--w) / 3);}
-
-.sliderItem img{
-    width: var(--w);height: calc(var(--w) / 3);object-fit: contain;
-}
-/* .sliderItem img{
-    width: var(--w);height: calc(var(--w) / 3);object-fit: cover;
-} */
-.btn{
     position: absolute;
-    width: 30px;height: 30px;
-    top: 50%;transform: translateY(-50%);
-    border-radius: 50%;
-    background: #fff;
-    opacity: 0;
+    top: 0; left: -100%;
 }
-.btn img{width: 100%;}
-.btn:hover{cursor: pointer;}
-.next{right: 5%;} .prev{left: 5%;}
+.slides.transition{
+    transition:  all 1s linear;
+    animation: move 0.8s forwards;
+}
+@keyframes move {0%{opacity: 1;}85%{opacity: 0;}100%{opacity: 1;}}
+.slide{
+    width: var(--width);    height: var(--height);
+    display: flex;  align-items: center;    justify-content: center;
+}
+img{
+    width: 50%;height: 90%;
+    object-fit: contain;
+    outline: 1px solid green;
+}

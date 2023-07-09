@@ -97,6 +97,7 @@
     transition: 0.5s;
     transition-delay: 0.5s;
     opacity: 0;
+    line-height: 1.5em;
 }
 .box:hover .elements.content p {
     opacity: 1;
