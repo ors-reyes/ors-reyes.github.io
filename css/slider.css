@@ -23,5 +23,5 @@
 img{
     width: 50%;height: 90%;
     object-fit: contain;
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
 }

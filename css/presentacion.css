@@ -75,6 +75,7 @@
     position: relative;
 }
 .down{
+    padding: 10px;
     grid-area: down;
     background: url(../img/presentacion/adDown.svg);
     background-size: cover;

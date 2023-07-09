@@ -1,14 +1,15 @@
-#demo{
-  /* font-size: 40px; */
+#demo {
   color: #fff;
-  width: 90%;
-  padding: 5px;
+  width: 80%;
+  padding: 10px;
   text-align: center;
+  font-size: 0.8em;
+  font-weight: 400;
   background: rgba(255, 255, 255, 0.05);
-    transform: translateZ(40px);
-    border: 1px solid rgba(0, 255, 255, 0.3);
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: inset 0 2px 2px rgba(0, 217, 217, 0.1);
-    border-radius: 5px;
+  transform: translateZ(40px);
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 2px 2px rgba(0, 217, 217, 0.1);
+  border-radius: 5px;
 }
