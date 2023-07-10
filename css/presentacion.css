@@ -10,13 +10,12 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 8% 15% 15% auto 10% 8%;
     grid-template-areas:
-        "up         up"           
-        "logo       logo"         
-        "rrss       rrss"         
-        "slide      slide"         
-        /* "tecnico    asistencia"     */
-        "mundi      typing"        
-        "down       down"         
+        "up         up"
+        "logo       logo"
+        "rrss       rrss"
+        "slide      slide"
+        "mundi      typing"
+        "down       down"
         ;
 }
 
@@ -81,4 +80,27 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 800px) {
+    .presentacion{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        z-index: 3;
+        overflow: hidden;
+        display: grid;
+        gap: 5px 5px;
+        grid-auto-flow: row;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 8% 15% auto 10% 8%;
+        grid-template-areas:
+            "up         up"
+            "logo       rrss"
+            "slide      slide"
+            "mundi      typing"
+            "down       down"
+            ;
+    }
+    
 }

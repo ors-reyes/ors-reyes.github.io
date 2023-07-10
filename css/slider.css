@@ -4,12 +4,13 @@
     width: var(--width);   height: var(--height);
     overflow: hidden;
     transform: translateX(-50%);    left: 50%;
+    /* outline: 1px solid red; */
 }
 .slides{
     width: 5000px;
     display: flex;
     position: absolute;
-    top: 0; left: -100%;
+    top: 0; left: var(--width * -1);
 }
 .slides.transition{
     transition:  all 1s linear;
@@ -24,4 +25,7 @@ img{
     width: 50%;height: 90%;
     object-fit: contain;
     /* outline: 1px solid green; */
+}
+@media screen and (min-width: 1300px){
+    :root{  --width : 500px;    --height : 300px;   }
 }
