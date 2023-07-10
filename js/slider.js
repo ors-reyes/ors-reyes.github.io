@@ -38,6 +38,6 @@ function checkIndex() {
   }
 }
 const play = ()=>{
-  setInterval(()=> switchSlide("next"),5000)
+  setInterval(()=> switchSlide("next"),15000)
 }
 play()
