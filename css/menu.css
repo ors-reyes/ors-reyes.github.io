@@ -1,6 +1,7 @@
 nav {
   position: fixed;
   width: 80vw;
+  /* max-width: 500px; */
   height: calc(60vh - 10px);
   z-index: 10;
   bottom: 10px;

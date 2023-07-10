@@ -5,6 +5,7 @@
     margin: 0;padding: 0;box-sizing: border-box;
     /* font-family: monospace; */
     font-family: 'Exo', sans-serif;
+    user-select: none;
 }
 body{
     background: #000;
