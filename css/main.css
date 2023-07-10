@@ -11,7 +11,7 @@ body{
     background: #000;
 }
 .home{
-    width: 100vw;height: 100vh;
+    width: 100vw;height: 100vh;overflow: hidden;
 }
 section{
     width: 100vw;
