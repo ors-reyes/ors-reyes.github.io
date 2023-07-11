@@ -7,6 +7,9 @@
     font-family: 'Exo', sans-serif;
     user-select: none;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body{
     background: #000;
 }
