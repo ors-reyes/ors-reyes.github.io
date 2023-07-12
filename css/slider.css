@@ -1,31 +1,92 @@
-:root{  --width : 350px;    --height : 200px;   }
-.slider{
-    position: relative;
-    width: var(--width);   height: var(--height);
+.continerSF{
+    width: 90%;
+    margin: auto;
     overflow: hidden;
-    transform: translateX(-50%);    left: 50%;
-    /* outline: 1px solid red; */
-}
-.slides{
-    width: 5000px;
-    display: flex;
-    position: absolute;
-    top: 0; left: var(--width * -1);
-}
-.slides.transition{
-    transition:  all 1s linear;
-    animation: move 0.8s forwards;
-}
-@keyframes move {0%{opacity: 1;}85%{opacity: 0;}100%{opacity: 1;}}
-.slide{
-    width: var(--width);    height: var(--height);
-    display: flex;  align-items: center;    justify-content: center;
-}
-img{
-    width: 50%;height: 90%;
-    object-fit: contain;
+    position: relative;
     /* outline: 1px solid green; */
 }
-@media screen and (min-width: 1300px){
-    :root{  --width : 500px;    --height : 300px;   }
+.slides{
+    display: flex;
+    width: 700%;
+    height: 200px;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+}
+.slideImg{
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    transform: translate(5%, 7.5%);
+}
+.svgW object{
+    max-width: 90%;
+    height: 100%;
+}
+.svgW{
+    width: 100%;
+    height: 100%;
+}
+.noPlay{
+    display: none;
+}
+.play{
+    display: block;
+    transform: translate(5%,0);
+}
+@media screen and (min-width: 700px){
+    .svgW object{
+        max-width: 60%;
+        height: 100%;
+    }
+    .play{
+        display: block;
+        transform: translate(20%,0);
+    }
+}
+@media screen and (min-width: 1200px){
+    .slides{
+        display: flex;
+        height: 230px;
+    }
+    .svgW object{
+        max-width: 50%;
+        height: 100%;
+    }
+    .play{
+        display: block;
+        transform: translate(25%,0);
+    }
+}
+@media screen and (min-width: 1700px){
+    .slides{
+        display: flex;
+        height: 350px;
+    }
+    .svgW object{
+        max-width: 30%;
+        height: 100%;
+    }
+    .play{
+        display: block;
+        transform: translate(35%,0);
+    }
+}
+/* borrar */
+.slidesBtn{
+    width: 50px;height: 50px;
+    border-radius: 50%;
+    background: #eee;
+    color: #000;
+    display: flex;align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 15000;
+}
+.btnRight{
+    right: 5%;
 }
