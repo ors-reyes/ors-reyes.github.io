@@ -66,7 +66,7 @@ nav:hover {
 }
 @media screen and (min-width: 700px) {
   nav {
-    position: fixed;
+    position: absolute;
     width: 290px;
     height: 325px;
     z-index: 10;
@@ -99,7 +99,7 @@ nav:hover {
 }
 @media screen and (min-width: 1300px) {
   nav {
-    position: fixed;
+    position: absolute;
     width: 350px;
     height: 350px;
     z-index: 10;
@@ -130,7 +130,7 @@ nav:hover {
 }
 @media screen and (min-width: 1800px) {
   nav {
-    position: fixed;
+    position: absolute;
     width: 450px;
     height: 450px;
     z-index: 10;
