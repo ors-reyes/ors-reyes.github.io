@@ -20,9 +20,6 @@ section{
     width: 100vw;
     height: 100vh;
     color: #fff;
-    display: flex;
-    align-self: center;
-    justify-self: center;
     position: relative;
 }
 section h2{
