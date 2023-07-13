@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+<style type="text/css">
+
+
+
+@keyframes chico{
+	0%{stroke-dashoffset:32px;stroke:#fff;}
+	50%{stroke-dashoffset:0;}
+	100%{stroke-dashoffset:-32px;stroke:rgb(200, 200, 200);}
+}
+@keyframes media{
+	0%{stroke-dashoffset:-39px;stroke:rgb(200, 200, 200);}
+	50%{stroke-dashoffset:0;}
+	100%{stroke-dashoffset:39px;stroke:#fff;}
+}
+@keyframes grand{
+	0%{stroke-dashoffset:47px;stroke:#fff;}
+	50%{stroke-dashoffset:0;}
+	100%{stroke-dashoffset:-47px;stroke:rgb(200, 200, 200);}
+}
+	.chico{fill:none;stroke:#fff;stroke-width:3;
+		stroke-dashoffset: 32px;
+		stroke-dasharray: 32px;
+		animation: chico 3.5s infinite linear;
+	}
+	.media{fill:none;stroke:#fff;stroke-width:2;
+		stroke-dashoffset: 39px;
+		stroke-dasharray: 39px;
+		animation: media 3.5s infinite linear;
+	}
+	.grand{fill:none;stroke:#fff;stroke-width:1;
+		stroke-dashoffset: 47px;
+		stroke-dasharray: 47px;
+		animation: grand 3.5s infinite linear;
+	}
+</style>
+<g>
+	<path class="chico" d="M10,30c0-11,9-20,20-20"/>
+	<path class="media" d="M5,30C5,16.2,16.2,5,30,5"/>
+	<path class="grand" d="M0,30C0,13.4,13.4,0,30,0"/>
+</g>
+</svg>
