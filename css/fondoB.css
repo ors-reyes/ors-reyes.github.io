@@ -1,73 +1,28 @@
+h1{
+    margin: 0;padding: 0;
+}
+.title{
+    color: #fff;
+    position: relative;
+    z-index: 2000;
+    /* outline: 1px solid red; */
+    margin: 50px 20px 50px 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
 .fondoB{
-    position: absolute;
-    top: 0;left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
-    overflow: hidden;
-    transform: scale(-1);
-    /*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=00d6d6&c2=010101&gt=r&gd=dtt
-*/
-background: #00D6D6;
-background: radial-gradient(at center top, #00D6D6, #010101);
+    position: relative;
+    min-height: 100%;
+    /* overflow: hidden; */
+    background: #00D6D6;
+    background: radial-gradient(at bottom center, #00D6D6, #010101);
 }
 .fndPie2{
     position: absolute;
     width: 100vw;
     left: 0;
-    bottom: -6px;
-}
-
-@media screen and (min-width: 800px) {
-    .fndPie2{
-        position: absolute;
-        width: 50vw;
-        left: 0;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .fndPie2{
-        position: absolute;
-        width: 50vw;
-        left: 0;
-    }
-}
-.fondoC{
-    position: absolute;
-    top: 0;left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
-    overflow: hidden;
-    /*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=013fd8&c2=010101&gt=r&gd=dtt
-*/
-background: #00D6D6;
-background: radial-gradient(at center top, #00D6D6, #010101);
-}
-.fondoD{
-    position: absolute;
-    top: 0;left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
-    overflow: hidden;
-    background: rgb(200,200,200);
-}
-.fondoE{
-    width: 100vw;
-    height: 10vh;
-    z-index: 2;
-    overflow: hidden;
-    background: rgb(0,0,0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.pie{
-    width: 80%;
-    height: 90%;
+    top: -6px;
+    transform: scale(-1);
 }

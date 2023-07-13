@@ -40,7 +40,7 @@ express.addEventListener("click", () =>{
                     clearInterval(print) 
                 },12)
         }
-    write('Express variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles.')
+    write('Un servicio que conoce integralmente sus equipos puede darle soluciones globales para hacer más eficiente su empresa.')
     }
 })
 /**** farmacia ****/
