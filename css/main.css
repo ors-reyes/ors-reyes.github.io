@@ -9,6 +9,7 @@
 }
 ::-webkit-scrollbar {
     display: none;
+    width: 0;
 }
 body{
     background: #000;
