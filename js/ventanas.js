@@ -66,7 +66,7 @@ farmacia.addEventListener("click", () =>{
                     clearInterval(print) 
                 },12)
         }
-    write(' variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque .')
+    write('Reparación de PC acorde a las necesidades de su empresa, garantizamos un buen rendimiento de sus computadoras y mejorar sus tareas.')
     }
 })
 /**** documentos ****/
@@ -92,7 +92,7 @@ documentos.addEventListener("click", () =>{
                     clearInterval(print) 
                 },12)
         }
-    write(' variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque.')
+    write('Insumos informáticos. Restablecer tus equipos informáticos: portátiles, impresoras, etiquetadoras, etc.')
     }
 })
 /**** viveres ****/
@@ -118,6 +118,6 @@ viveres.addEventListener("click", () =>{
                     clearInterval(print) 
                 },12)
         }
-    write(' variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se .')
+    write('Brindamos servicios de diagnóstico, diseño, reparación, integración y elaboración de presupuestos en proyecto de cableado estructurado.')
     }
 })
