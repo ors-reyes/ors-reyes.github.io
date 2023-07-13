@@ -66,7 +66,7 @@ farmacia.addEventListener("click", () =>{
                     clearInterval(print) 
                 },12)
         }
-    write('Farmacia variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles.')
+    write('Farmacia variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque .')
     }
 })
 /**** documentos ****/
@@ -92,7 +92,7 @@ documentos.addEventListener("click", () =>{
                     clearInterval(print) 
                 },12)
         }
-    write('Documentos variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles.')
+    write('Documentos variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le .')
     }
 })
 /**** viveres ****/
@@ -118,6 +118,6 @@ viveres.addEventListener("click", () =>{
                     clearInterval(print) 
                 },12)
         }
-    write('Viveres variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles.')
+    write('Viveres variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se .')
     }
 })
