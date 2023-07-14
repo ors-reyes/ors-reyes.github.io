@@ -17,12 +17,6 @@ body{
 .home{
     width: 100vw;height: 100vh;overflow: hidden;
 }
-section{
-    width: 100vw;
-    height: 100vh;
-    color: #fff;
-    position: relative;
-}
 section h2{
     text-align: center;
     align-items: center;
