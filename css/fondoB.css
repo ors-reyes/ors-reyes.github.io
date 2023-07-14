@@ -17,7 +17,7 @@ h2{
 
 .fondoB{
     position: relative;
-    padding-top: 100px;
+    padding: 200px 0;
     background: radial-gradient(at bottom center, #00D6D6, #010101);
 }
 .fndPie2{
@@ -29,7 +29,7 @@ h2{
 }
 .fondoBPie{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 300px;
     border-radius: 5px;
     border: 1px solid rgba(0, 214, 214, 0.3);
     
