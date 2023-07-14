@@ -32,7 +32,7 @@
     position: fixed;
     top: 10%;
     transform: translateY(-50%) rotateX(180deg) rotateY(180deg);
-    right: 15px;
+    right: 10px;
     color: #fff;
     font-size: 0.8em;
     z-index: 30000;
