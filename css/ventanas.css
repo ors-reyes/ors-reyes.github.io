@@ -1,4 +1,4 @@
-#iconosDescripcion{
+.iconosDescripcion{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -7,17 +7,23 @@
     position: relative;
     z-index: 10000;
 }
-#express{
-    background-image: url(../img/ventanas/express.svg);
+#mante{
+    background-image: url(../img/ventanas/mante.svg);
 }
-#farmacia{
-    background-image: url(../img/ventanas/farmacia.svg);
+#repara{
+    background-image: url(../img/ventanas/repara.svg);
 }
-#documentos{
-    background-image: url(../img/ventanas/documentos.svg);
+#insumos{
+    background-image: url(../img/ventanas/redes.svg);
 }
-#viveres{
-    background-image: url(../img/ventanas/viveres.svg);
+#redes{
+    background-image: url(../img/ventanas/insumos.svg);
+}
+#cctv{
+    background-image: url(../img/ventanas/cctv.svg);
+}
+#web{
+    background-image: url(../img/ventanas/web.svg);
 }
 
 .contIcon{

@@ -1,39 +1,49 @@
 const iconImg = document.querySelector('.iconImg')
 
-const express = document.getElementById('express')
-const iconExpres = document.getElementById('iconExpres')
-const expressText = document.getElementById('expressText')
+const mante = document.getElementById('mante')
+const btnMante = document.getElementById('btnMante')
+const manteText = document.getElementById('manteText')
 
-const farmacia = document.getElementById('farmacia')
-const farmaciaText = document.getElementById('farmaciaText')
-const iconFarmacia = document.getElementById('iconFarmacia')
+const repara = document.getElementById('repara')
+const reparaText = document.getElementById('reparaText')
+const btnRepara = document.getElementById('btnRepara')
 
-const documentos = document.getElementById('documentos')
-const documentosText = document.getElementById('documentosText')
-const iconDocumentos = document.getElementById('iconDocumentos')
+const insumos = document.getElementById('insumos')
+const insumosText = document.getElementById('insumosText')
+const btnInsumos = document.getElementById('btnInsumos')
 
-const viveres = document.getElementById('viveres')
-const viveresText = document.getElementById('viveresText')
-const iconViveres = document.getElementById('iconViveres')
-let bExpress = 0;let bFarmacia = 0;let bDocumentos = 0;let bViveres = 0;
+const redes = document.getElementById('redes')
+const redesText = document.getElementById('redesText')
+const btnRedes = document.getElementById('btnRedes')
 
-/**** express ****/
-express.addEventListener("click", () =>{
-    iconExpres.classList.toggle('iconTxtV')
-    express.classList.toggle('iconImgV')    
-    if(bExpress===0){
-        bExpress++
+const cctv = document.getElementById('cctv')
+const cctvText = document.getElementById('cctvText')
+const btnCctv = document.getElementById('btnCctv')
+
+const web = document.getElementById('web')
+const webText = document.getElementById('webText')
+const btnWeb = document.getElementById('btnWeb')
+
+
+let bmante = 0, brepara = 0, binsumos = 0, bredes = 0, bcctv = 0, bweb = 0;
+
+/**** mante ****/
+mante.addEventListener("click", () =>{
+    btnMante.classList.toggle('iconTxtV')
+    mante.classList.toggle('iconImgV')    
+    if(bmante===0){
+        bmante++
         let write = srt =>{
             let array = srt.split('')
-            expressText.innerHTML = ""
+            manteText.innerHTML = ""
             let i = 0
             let print = setInterval(()=>{
                 if (array[i] === ' '){
-                    expressText.innerHTML+= array[i]
-                    expressText.innerHTML+= array[i + 1]
+                    manteText.innerHTML+= array[i]
+                    manteText.innerHTML+= array[i + 1]
                     i  += 2
                 }else{
-                    expressText.innerHTML += array[i]
+                    manteText.innerHTML += array[i]
                     i++
                 }
                 if(i === array.length) 
@@ -43,23 +53,23 @@ express.addEventListener("click", () =>{
     write('Un servicio que conoce integralmente sus equipos puede darle soluciones globales para hacer más eficiente su empresa.')
     }
 })
-/**** farmacia ****/
-farmacia.addEventListener("click", () =>{
-    iconFarmacia.classList.toggle('iconTxtV')
-    farmacia.classList.toggle('iconImgV')    
-    if(bFarmacia===0){
-        bFarmacia++
+/**** repara ****/
+repara.addEventListener("click", () =>{
+    btnRepara.classList.toggle('iconTxtV')
+    repara.classList.toggle('iconImgV')    
+    if(brepara===0){
+        brepara++
         let write = srt =>{
             let array = srt.split('')
-            farmaciaText.innerHTML = ""
+            reparaText.innerHTML = ""
             let i = 0
             let print = setInterval(()=>{
                 if (array[i] === ' '){
-                    farmaciaText.innerHTML+= array[i]
-                    farmaciaText.innerHTML+= array[i + 1]
+                    reparaText.innerHTML+= array[i]
+                    reparaText.innerHTML+= array[i + 1]
                     i  += 2
                 }else{
-                    farmaciaText.innerHTML += array[i]
+                    reparaText.innerHTML += array[i]
                     i++
                 }
                 if(i === array.length) 
@@ -69,23 +79,23 @@ farmacia.addEventListener("click", () =>{
     write('Reparación de PC acorde a las necesidades de su empresa, garantizamos un buen rendimiento de sus computadoras y mejorar sus tareas.')
     }
 })
-/**** documentos ****/
-documentos.addEventListener("click", () =>{
-    iconDocumentos.classList.toggle('iconTxtV')
-    documentos.classList.toggle('iconImgV')    
-    if(bDocumentos===0){
-        bDocumentos++
+/**** insumos ****/
+insumos.addEventListener("click", () =>{
+    btnInsumos.classList.toggle('iconTxtV')
+    insumos.classList.toggle('iconImgV')    
+    if(binsumos===0){
+        binsumos++
         let write = srt =>{
             let array = srt.split('')
-            documentosText.innerHTML = ""
+            insumosText.innerHTML = ""
             let i = 0
             let print = setInterval(()=>{
                 if (array[i] === ' '){
-                    documentosText.innerHTML+= array[i]
-                    documentosText.innerHTML+= array[i + 1]
+                    insumosText.innerHTML+= array[i]
+                    insumosText.innerHTML+= array[i + 1]
                     i  += 2
                 }else{
-                    documentosText.innerHTML += array[i]
+                    insumosText.innerHTML += array[i]
                     i++
                 }
                 if(i === array.length) 
@@ -95,23 +105,23 @@ documentos.addEventListener("click", () =>{
     write('Insumos informáticos. Restablecer tus equipos informáticos: portátiles, impresoras, etiquetadoras, etc.')
     }
 })
-/**** viveres ****/
-viveres.addEventListener("click", () =>{
-    iconViveres.classList.toggle('iconTxtV')
-    viveres.classList.toggle('iconImgV')    
-    if(bViveres===0){
-        bViveres++
+/**** redes ****/
+redes.addEventListener("click", () =>{
+    btnRedes.classList.toggle('iconTxtV')
+    redes.classList.toggle('iconImgV')    
+    if(bredes===0){
+        bredes++
         let write = srt =>{
             let array = srt.split('')
-            viveresText.innerHTML = ""
+            redesText.innerHTML = ""
             let i = 0
             let print = setInterval(()=>{
                 if (array[i] === ' '){
-                    viveresText.innerHTML+= array[i]
-                    viveresText.innerHTML+= array[i + 1]
+                    redesText.innerHTML+= array[i]
+                    redesText.innerHTML+= array[i + 1]
                     i  += 2
                 }else{
-                    viveresText.innerHTML += array[i]
+                    redesText.innerHTML += array[i]
                     i++
                 }
                 if(i === array.length) 
@@ -119,5 +129,57 @@ viveres.addEventListener("click", () =>{
                 },12)
         }
     write('Brindamos servicios de diagnóstico, diseño, reparación, integración y elaboración de presupuestos en proyecto de cableado estructurado.')
+    }
+})
+/**** cctv ****/
+cctv.addEventListener("click", () =>{
+    btnCctv.classList.toggle('iconTxtV')
+    cctv.classList.toggle('iconImgV')    
+    if(bcctv===0){
+        bcctv++
+        let write = srt =>{
+            let array = srt.split('')
+            cctvText.innerHTML = ""
+            let i = 0
+            let print = setInterval(()=>{
+                if (array[i] === ' '){
+                    cctvText.innerHTML+= array[i]
+                    cctvText.innerHTML+= array[i + 1]
+                    i  += 2
+                }else{
+                    cctvText.innerHTML += array[i]
+                    i++
+                }
+                if(i === array.length) 
+                    clearInterval(print) 
+                },12)
+        }
+    write('Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur .')
+    }
+})
+/**** web ****/
+web.addEventListener("click", () =>{
+    btnWeb.classList.toggle('iconTxtV')
+    web.classList.toggle('iconImgV')    
+    if(bweb===0){
+        bweb++
+        let write = srt =>{
+            let array = srt.split('')
+            webText.innerHTML = ""
+            let i = 0
+            let print = setInterval(()=>{
+                if (array[i] === ' '){
+                    webText.innerHTML+= array[i]
+                    webText.innerHTML+= array[i + 1]
+                    i  += 2
+                }else{
+                    webText.innerHTML += array[i]
+                    i++
+                }
+                if(i === array.length) 
+                    clearInterval(print) 
+                },12)
+        }
+    write('Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur .')
     }
 })
