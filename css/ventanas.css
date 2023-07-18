@@ -29,10 +29,8 @@
 .contIcon{
     width: 300px;
     height: 260px;
-    background: #ccc;
     padding: 10px 10px;
     margin: 10px;
-
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 255, 255, 0.3);
@@ -47,10 +45,8 @@
     visibility: hidden;opacity: 0;
     width: 220px;
     height: 230px;
-    background: #fff;
     padding: 10px;
     background: rgba(0, 217, 217, 0.05);
-    transform: translateZ(40px);
     border: 1px solid rgba(0, 255, 255, 0.3);
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-left: 1px solid rgba(255, 255, 255, 0.3);
@@ -67,11 +63,7 @@
 .iconImg{
     cursor: pointer;
     background: rgb(200, 200, 200);
-    border: 1px solid rgba(0, 255, 255, 0.3);
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-    width: 150px;
-    height: 150px;
+    width: 150px;height: 150px;
     transform: translate(65px, -200px);
     z-index: 10;
     transition: all 0.5s;
@@ -81,6 +73,16 @@
     border-radius: 10px;
     box-shadow: inset 0px 0px 3px rgba(0,0,0,0.5);
     border: 1px solid #fff;
+}
+.iconImg:hover{
+    cursor: pointer;
+    background: rgb(200, 200, 200);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,1);
+    border: 1px solid rgb(132, 132, 132);
 }
 .iconImg::after{
     content: '';
@@ -98,26 +100,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    /* transform: rotate(-45deg); */
 }
-/* .iconImg::after{
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    outline: 1px solid red;
-    right: -30px;
-    bottom: -25px;
-    background: url(../img/ventanas/touch.svg);
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: rotate(-45deg);
-} */
 .iconImgV{
     width: 80px;
     height: 230px;

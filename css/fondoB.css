@@ -23,25 +23,23 @@ h2{
 .fndPie2{
     position: absolute;
     width: 100vw;
-    left: 0;
+    left: 0px;
     top: -6px;
     transform: scale(-1);
+    z-index: 5000;
 }
 .fondoBPie{
     width: 100%;
-    margin-top: 300px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 214, 214, 0.3);
-    
-
+    margin-top: 100px;
+    /* border-radius: 5px; */
+    /* border: 1px solid rgba(0, 214, 214, 0.3); */
     background: linear-gradient(90deg, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 100%);
-
     box-shadow: 0px 0px 50px 43px rgba(0,0,0,0.1),inset 0px 0px 15px 5px rgba(0,0,0,0.1);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 150px;
-    padding: 20px;
+    height: 350px;
+    padding: 100px 0;
 }
 .horario{
     background: url(../img/garantia/horario.png);
@@ -63,10 +61,10 @@ h2{
     /* position: relative; */
     min-height: 100vh;
     background: radial-gradient(at top center, #00D6D6, #010101);
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 .contFondoC{
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
     display: flex;
     flex-wrap: wrap;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 100%);
@@ -86,9 +84,18 @@ h2{
 }
 .fndCImg{
     background: url(../img/gaming/gamer.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
+    outline: 1px solid green;
+}
+.fndCImg::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 0, 0, .5);
+    margin-top: 250px;
 }
 .fndCTxt p{
     color: #C8C8C8;
