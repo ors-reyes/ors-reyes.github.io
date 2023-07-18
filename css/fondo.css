@@ -23,7 +23,7 @@
     position: absolute;
     width: 100vw;
     left: 0;
-    bottom: 0;
+    bottom: -6;
 }
 @media screen and (min-width: 800px) {
     .fndPie{
@@ -38,7 +38,7 @@
         position: absolute;
         width: 50vw;
         left: 0;
-        bottom: 0;
+        bottom: -6px;
     }
     .fndCentro{
         position: absolute;

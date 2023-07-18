@@ -1,11 +1,14 @@
 .iconosDescripcion{
     width: 100%;
+    max-width: 1250px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
     position: relative;
     z-index: 10000;
+    transform: translateX(-50%);
+    margin-left: 50%;
 }
 #mante{
     background-image: url(../img/ventanas/mante.svg);
