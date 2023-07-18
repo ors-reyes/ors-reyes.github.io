@@ -1,64 +1,6 @@
 h2{
     margin: 0;padding: 0;
 }
-.title{
-    /* color: #fff; */
-    color: #C8C8C8;
-    position: relative;
-    z-index: 2000;
-    /* outline: 1px solid red; */
-    margin: 50px 30px 50px 20px;
-    padding: 20px;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-shadow: #fff 1px 1px 1px;
-}
-
-.fondoB{
-    position: relative;
-    padding: 200px 0;
-    background: radial-gradient(at bottom center, #00D6D6, #010101);
-}
-.fndPie2{
-    position: absolute;
-    width: 100vw;
-    right: 0px;
-    top: -6px;
-    transform: scale(-1);
-    z-index: 5000;
-}
-.fondoBPie{
-    width: 100%;
-    margin-top: 100px;
-    /* border-radius: 5px; */
-    /* border: 1px solid rgba(0, 214, 214, 0.3); */
-    /* background: linear-gradient(90deg, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 100%); */
-    box-shadow: inset 0px 0px 15px 5px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 350px;
-    padding: 100px 0;
-    position: relative;
-    z-index: 30000;
-}
-.horario{
-    background: url(../img/garantia/horario.png);
-}
-.garantia{
-    background: url(../img/garantia/garantia.png);
-}
-.rapidez{
-    background: url(../img/garantia/rapidez.png);
-}
-.horario,.garantia,.rapidez{
-    width: 20%;
-    height: 80%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .fondoC{
     /* position: relative; */
     min-height: 100vh;
@@ -109,14 +51,7 @@ h2{
         width: 50%;
         height: 300px;
     }
-    .fndPie2{
-        position: absolute;
-        width: 80vw;
-        right: 0px;
-        top: -6px;
-        transform: scale(-1);
-        z-index: 5000;
-    }
+    
 }
 @media screen and (min-width: 1400px) {
     .fndCTxt,.fndCImg{

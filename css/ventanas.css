@@ -1,3 +1,17 @@
+.fondoB{
+    position: relative;
+    padding: 200px 0;
+    background: radial-gradient(at bottom center, #00D6D6, #010101);
+}
+.fndPie2{
+    position: absolute;
+    width: 80vw;
+    /* height: 100%; */
+    right: 0px;
+    top: -6px;
+    transform: scale(-1);
+    z-index: 5000;
+}
 .iconosDescripcion{
     width: 100%;
     max-width: 1250px;
@@ -65,34 +79,28 @@
 }
 .iconImg{
     cursor: pointer;
-    background: rgb(200, 200, 200);
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 2px 2px rgba(0, 217, 217, 0.1);
     width: 150px;height: 150px;
     transform: translate(65px, -200px);
     z-index: 10;
     transition: all 0.5s;
     background-position: center;
-    background-size: 90%;
+    background-size: 80%;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: inset 0px 0px 3px rgba(0,0,0,0.5);
-    border: 1px solid #fff;
 }
 .iconImg:hover{
-    cursor: pointer;
-    background: rgb(200, 200, 200);
-    background-position: center;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 20px rgba(0,0,0,1);
-    border: 1px solid rgb(132, 132, 132);
+    box-shadow: inset 0 5px 5px rgba(255, 255, 255, 0.5);
 }
 .iconImg::after{
     content: '';
     position: absolute;
     width: 30px;
     height: 30px;
-    /* outline: 1px solid red; */
     right: 0;
     bottom: 0;
     background: url(../img/ventanas/radar.svg);
@@ -109,4 +117,33 @@
     height: 230px;
     transform: translate(230px, -230px);
     transition: all 0.5s;
+}
+
+.fondoBPie{
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: inset 0px 0px 15px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    padding: 50px 0;
+    position: relative;
+    z-index: 30000;
+}
+.horario{
+    background: url(../img/garantia/horario.svg);
+}
+.garantia{
+    background: url(../img/garantia/garantia.svg);
+}
+.rapidez{
+    background: url(../img/garantia/rapidez.svg);
+}
+.horario,.garantia,.rapidez{
+    width: 20%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
