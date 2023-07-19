@@ -1,112 +1,45 @@
-.wrapper {
-  max-width: 1250px;
+.ddd{
   width: 100%;
+  height: 200px;
   position: relative;
-}
-.wrapper i {
-  top: 50%;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  font-size: 1.25rem;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-  transform: translateY(-50%);
-  transition: transform 0.1s linear;
-}
-.wrapper i:active{
-  transform: translateY(-50%) scale(0.85);
-}
-.wrapper i:first-child{
-  left: -22px;
-}
-.wrapper i:last-child{
-  right: -22px;
-}
-.wrapper .carousel{
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 3) - 12px);
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 16px;
-  border-radius: 8px;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-}
-.carousel::-webkit-scrollbar {
-  display: none;
-}
-.carousel.no-transition {
-  scroll-behavior: auto;
-}
-.carousel.dragging {
-  scroll-snap-type: none;
-  scroll-behavior: auto;
-}
-.carousel.dragging .card {
-  cursor: grab;
-  user-select: none;
-}
-.carousel :where(.card, .img) {
+  /* background: radial-gradient(at bottom center, #00D6D6, #010101); */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.carousel .card {
-  scroll-snap-align: start;
-  height: 342px;
-  list-style: none;
+.contenedorMarcasS{
+  width: 100vw;
+  height: 100px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 1) 100%);
+  margin: auto;
+  position: absolute;
+  z-index: 1;    
+}
+.contenedorMarcas{
+  width: 100vw;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
   background: rgba(0, 0, 0, 0.5);
-border: 1px solid rgba(0, 255, 255, 0.3);
-  border-top-color: rgba(0, 255, 255, 0.3);
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-left-color: rgba(0, 255, 255, 0.3);
-  border-left-style: solid;
-  border-left-width: 1px;
-border-top: 1px solid rgba(255, 255, 255, 0.3);
-border-left: 1px solid rgba(255, 255, 255, 0.3);
-box-shadow: inset 0 2px 2px rgba(0, 217, 217, 0.1);
-  cursor: pointer;
-  padding-bottom: 15px;
-  flex-direction: column;
-  border-radius: 8px;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  box-shadow: inset 0 0 10px 10px rgba(0, 217, 217, 0.1);
 }
-.carousel .card .img {
-  /* background: #fff; */
-  height: 250px;
-  width: 250px;
-  border-radius: 10%;
+.sliderMarcas{
+  display: flex;
+  animation: scroll 30s linear infinite;
+  width: calc(200px * 32);
+  height: 100%;
 }
-.card .img img {
-  width: 250px;
-  height: 250px;
-  border-radius: 10%;
+.marca{
+  width: 200px;
+  padding: 20px 50px;
+}
+.marca img{
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
-.carousel .card h2 {
-  font-weight: 500;
-  font-size: 1.56rem;
-  margin: 30px 0 5px;
-}
-.carousel .card span {
-  color: #6A6D78;
-  font-size: 1.31rem;
-}
-
-@media screen and (max-width: 900px) {
-  .wrapper .carousel {
-    grid-auto-columns: calc((100% / 2) - 9px);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .wrapper .carousel {
-    grid-auto-columns: 100%;
-  }
+@keyframes scroll{
+  0%{transform: translateX(0);}
+  100%{transform: translateX(calc(-200px * 16));}
 }
