@@ -12,7 +12,8 @@
     width: 0;
 }
 body{
-    background: #000;
+    /* background: #000; */
+    background: radial-gradient(at top center, #00D6D6, #010101);
 }
 .home{
     width: 100vw;height: 100vh;overflow: hidden;
