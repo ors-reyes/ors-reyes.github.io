@@ -1,32 +1,16 @@
-.mante{
-    width: 100vw;min-height: 100vh;
-    display: flex;flex-wrap: wrap;
-    background: url(../img/mantenimiento/2704.svg);
-    background-size: contain;
-    background-position: bottom;
-}
-.manteImg{
-    padding: 20px;
-    width: 100%;
-    height: 50vh;
-    position: relative;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
-}
-.manteImgSrc{
-    background: url(../img/mantenimiento/mantenimiento.png);
-    width: 100%;
-    height: 50%;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.mante {
+    width: 100vw;
+    min-height: 100vh;
     position: relative;
 }
-.manteSvg{
-    width: 100%;
-    height: 50%;
-    /* outline: 1px solid red; */
+.manteFondo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.manteTxt{
+.manteImg {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -34,60 +18,116 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+.manteImgSrc {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manteImgSrc img{
+    width: 100%;
+    /* object-fit: cover; */
+}
+.manteSvg {
+    width: 100%;
+    height: 50vh;
+}
+.manteTxt {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
 }
-.title2{
-    padding: 20px 5px;
+.title2 {
+    padding: 10px 0;
     color: #C8C8C8;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
     text-shadow: #fff 1px 1px 1px;
 }
-.manteTxt p{
+.manteTxt p {
+    padding: 10px 0;
     color: #C8C8C8;
     text-align: center;
 }
-@media screen and (min-width: 740px) {
-    .manteImg{
+@media screen and (min-width: 900px) {
+    .mante {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background: url(../img/mantenimiento/2704.svg);
+        background-size: contain;
+        background-position: bottom;
+    }
+    .manteImg {
         width: 50%;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
         background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
     }
-    .manteImgSrc{
-        width: 100%;
-        height: 50%;
-        background-position: bottom center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    /* .manteSvg{
-        width: 70%;
-        height: 50%;
-        margin: auto;
-    } */
-    .manteTxt{
+    .manteTxt {
         width: 50%;
-        height: 100vh;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
         background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
     }
-    .title2{
-        padding: 40px 10px;
+    .manteImgSrc {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .manteImgSrc img{
+        /* width: 100%; */
+        /* object-fit: cover; */
+    }
+    .manteSvg {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .title2 {
+        padding: 10px 0;
         color: #C8C8C8;
         text-align: center;
         font-size: 1.5em;
         font-weight: bold;
         text-shadow: #fff 1px 1px 1px;
     }
-    .manteTxt p{
-        padding: 40px;
+    .manteTxt p {
+        padding: 10px 0;
         color: #C8C8C8;
         text-align: center;
     }
 }
-@media screen and (min-width: 1500px) {
-    .manteSvg .svgW object{
-        max-width: 50%
+@media screen and (min-width: 1700px) {
+    .svgW .svgCorr{
+        transform: translate(0);
+        margin: auto;
+        width: 100%;
+        outline: 1px solid red;
     }
 }
