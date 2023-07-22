@@ -6,10 +6,10 @@
 /* .verificarFondo{fill:url(#SVGID_1_);} */
 :root{
 	--inicio1 : 0s;
-	--inicio2 : 1.25s;
-	--inicio3 : 2.5s;
-	--inicio4 : 3.75s;
-	--inicio5 : 5s;
+	--inicio2 : 0s;
+	--inicio3 : 1.25s;
+	--inicio4 : 1.25s;
+	--inicio5 : 3s;
 }
 	.fondo{
 		fill-rule:evenodd;clip-rule:evenodd;fill:transparent;
@@ -20,7 +20,10 @@
 	@keyframes Indice2{0%{stroke-dashoffset:-72px;}100%{stroke-dashoffset:0px;}}
 	@keyframes Circulo{0%{stroke-dashoffset:445px;}100%{stroke-dashoffset:0px;}}
 	@keyframes Porcentaje{0%{stroke-dashoffset:273px;}100%{stroke-dashoffset:0px;}}
-	@keyframes central{0%{stroke-dashoffset:1147px;}100%{stroke-dashoffset:0px;}}
+	@keyframes central{
+		0%{stroke-dashoffset:1147px;}
+		100%{stroke-dashoffset:0px;}
+	}
 .verifiacarIndice,.procederIndice,.relevarIndice,.registrarIndice{
 	fill:none;stroke:#fff;stroke-width:3;stroke-dasharray: 72px;stroke-dashoffset: 72px;
 }
@@ -87,7 +90,7 @@
 	.lineaCentral{fill:none;stroke:rgba(0, 214, 214, 0.5);stroke-width:5;
 		stroke-linecap: round;
 		stroke-dasharray: 1147px;stroke-dashoffset: 1147px;
-		animation: central 1s forwards linear calc(var(--inicio5) + 0s);
+		animation: central 2s forwards linear calc(var(--inicio5) + 0s);
 	}
 </style>
 <g>
