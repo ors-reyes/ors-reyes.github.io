@@ -286,7 +286,7 @@
 	.pcMonitor{fill-rule:evenodd;clip-rule:evenodd;fill:#000;filter:url(#shadowPlaneta);opacity: 1;}
 	.pcPantalla{fill-rule:evenodd;clip-rule:evenodd;fill:url(#jackPantalla);}
 	.pcMouse{fill-rule:evenodd;clip-rule:evenodd;fill:#000;filter:url(#shadowPlaneta);opacity: 1;}
-	.st4{fill:#fff;}
+	.st4{fill:#828282;}
 	.pcTeclado{fill-rule:evenodd;clip-rule:evenodd;fill:#000;filter:url(#shadowPlaneta);opacity: 1;}
 
 

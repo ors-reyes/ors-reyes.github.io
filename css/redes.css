@@ -1,0 +1,47 @@
+.sectionRedes{
+    width: 100vw;height: 100vh;overflow: hidden;
+    position: relative;
+}
+
+.fondoRedes{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+.fondoRedes object{
+    transform: scale(0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+    .fondoRedes object{
+        position: absolute;
+        top: 0;
+        width: 300vw;
+        height: 100vh;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}
+
+.base{
+    opacity: 0.5;
+}
+.redesSVG{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+@media screen and (max-width: 1200px) {
+    .redesSVG{
+        position: absolute;
+        top: 0;
+        width: 300vw;
+        height: 100vh;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}
