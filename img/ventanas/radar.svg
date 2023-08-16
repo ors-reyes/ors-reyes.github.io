@@ -7,31 +7,31 @@
 
 
 @keyframes chico{
-	0%{stroke-dashoffset:32px;stroke:#fff;}
+	0%{stroke-dashoffset:32px;stroke:#8D8D8D;}
 	50%{stroke-dashoffset:0;}
 	100%{stroke-dashoffset:-32px;stroke:rgb(200, 200, 200);}
 }
 @keyframes media{
 	0%{stroke-dashoffset:-39px;stroke:rgb(200, 200, 200);}
 	50%{stroke-dashoffset:0;}
-	100%{stroke-dashoffset:39px;stroke:#fff;}
+	100%{stroke-dashoffset:39px;stroke:#8D8D8D;}
 }
 @keyframes grand{
-	0%{stroke-dashoffset:47px;stroke:#fff;}
+	0%{stroke-dashoffset:47px;stroke:#8D8D8D;}
 	50%{stroke-dashoffset:0;}
 	100%{stroke-dashoffset:-47px;stroke:rgb(200, 200, 200);}
 }
-	.chico{fill:none;stroke:#fff;stroke-width:3;
+	.chico{fill:none;stroke:#8D8D8D;stroke-width:1;
 		stroke-dashoffset: 32px;
 		stroke-dasharray: 32px;
 		animation: chico 3.5s infinite linear;
 	}
-	.media{fill:none;stroke:#fff;stroke-width:2;
+	.media{fill:none;stroke:#8D8D8D;stroke-width:1;
 		stroke-dashoffset: 39px;
 		stroke-dasharray: 39px;
 		animation: media 3.5s infinite linear;
 	}
-	.grand{fill:none;stroke:#fff;stroke-width:1;
+	.grand{fill:none;stroke:#8D8D8D;stroke-width:1;
 		stroke-dashoffset: 47px;
 		stroke-dasharray: 47px;
 		animation: grand 3.5s infinite linear;

@@ -13,7 +13,7 @@ function next(){
 // btnNext.addEventListener('click', ()=>next())
 
 const play = ()=>{
-    setInterval(()=> next() ,10000)
+    setInterval(()=> next() ,12000)
 }
 play()
 
