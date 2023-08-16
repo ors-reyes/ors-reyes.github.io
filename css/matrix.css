@@ -1,8 +1,8 @@
-#matrix {
+canvas {
     position: absolute;
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
-    /* background: #000; */
     z-index: 1;
-    overflow: hidden;
+    overflow: hidden; */
+    font-family: 'Exo', sans-serif;
 }

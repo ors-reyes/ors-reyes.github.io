@@ -13,7 +13,8 @@
 }
 body{
     /* background: #000; */
-    background: radial-gradient(at top center, #00D6D6, #010101);
+    /* background: radial-gradient(at top center,  #010101, #00D6D6); */
+    background: radial-gradient(ellipse at 50% 50%, rgba(0, 214, 214, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 .home{
     width: 100vw;height: 100vh;overflow: hidden;
