@@ -29,7 +29,7 @@ const navObserver = new IntersectionObserver((entradas)=>{
         }
     })
 },{
-    rootMargin: '0px 0px -50% 0px',
+    rootMargin: '0px 0px 50% 0px',
     threshold: 0.5
 });
 secciones.forEach(secciones =>{
