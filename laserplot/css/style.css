@@ -9,7 +9,7 @@ html{
 }
 body{
     scroll-behavior: smooth;
-    background: rgba(217, 105, 105, 0.5);
+    /* background: rgba(217, 105, 105, 0.5); */
 }
 .contenedor {
     width: 100vw;height: 100vh;
