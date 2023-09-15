@@ -14,7 +14,7 @@ const navObserver = new IntersectionObserver((entradas)=>{
         if(entrada.isIntersecting){
             const id = `#${entrada.target.id}`
             if(inicio === id || fin === id){
-                navContenedor.style.left = '-70px'
+                navContenedor.style.left = '-140px'
                 navContenedor.style.transition = 'all 0.3s'
                 header.style.top = '-60px'
                 header.style.transition = 'all 0.3s'

@@ -40,7 +40,7 @@ section {
 nav{
     position: fixed;
     top: 20px;
-    left: -70px;
+    left: -140px;
     width: 70px;
     /* background: rgba(255, 0, 0, 0.5); */
     transition: all 0.5s;
