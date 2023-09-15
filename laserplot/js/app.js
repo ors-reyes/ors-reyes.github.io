@@ -29,7 +29,8 @@ const navObserver = new IntersectionObserver((entradas)=>{
         }
     })
 },{
-    threshold: 1
+    rootMargin: '0px 0px -50% 0px',
+    threshold: 0.5
 });
 secciones.forEach(secciones =>{
     navObserver.observe(secciones)
