@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;400;600;800&display=swap');
+
 ::-webkit-scrollbar {display: none;width: 0;}
 *{box-sizing: border-box;margin: 0;padding: 0;
         scroll-behavior: smooth;
+        font-family: 'Exo 2', sans-serif;
 }
 html{
     scroll-behavior: smooth;

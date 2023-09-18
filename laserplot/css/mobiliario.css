@@ -1,0 +1,35 @@
+.contSection{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: calc(100vw - 70px);
+    height: calc(100vh - 60px);
+    /* background: rgba(0, 0, 0, 0.5); */
+    outline: 1px solid gray;
+}
+.titulo{
+    width: calc(100vw - 70px);
+    display: flex;
+}
+.tituloTxt{
+    width: 70%;
+}
+.tituloTxt h2{
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: normal;
+    padding: 5px 6px;
+}
+.tituloTxt h2 strong{
+    font-size: 1em;
+    font-weight: 600;
+    color: red;
+}
+.tituloIcon{
+    padding: 5px;
+    outline: 1px solid gray;
+    height: auto;
+    width: auto;
+    min-height: 70px;
+    min-width: 70px;
+}

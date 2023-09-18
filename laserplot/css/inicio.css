@@ -19,6 +19,12 @@
     height: 100%;
 }
 .sectionIn{
+    position: absolute;
+    bottom: 10%;
     width: 50%;
     height: 50%;
+    outline: 1px solid gray;
+}
+.in{
+    height: 100%;
 }

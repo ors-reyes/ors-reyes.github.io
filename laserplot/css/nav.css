@@ -3,9 +3,11 @@ nav{
     top: 20px;
     left: -140px;
     width: 70px;
-    /* background: rgba(255, 0, 0, 0.5); */
+    /* background: rgba(132, 132, 132, 0.5); */
+    background: rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
     z-index: 999;
+    border-radius: 5px;
 }
 nav ul{
     list-style: none;
@@ -28,14 +30,11 @@ nav ul li{
 nav ul li a .nav{
     width: 100%;height: 100%;
     /* background: rgba(0, 255, 0, 0.1); */
-    transition: all 0.3s;
-    position: relative;
     transition: all 0.5s;
+    position: relative;
+    
     border-radius: 5px;
     z-index: 1;
-}
-nav ul li a .nav:hover{
-    border: 1px solid blue;
 }
 a{
     color: #fff;
@@ -43,14 +42,14 @@ a{
 }
 nav ul li a .activeNav{
     /* background: rgba(255, 0, 0, 0.1); */
-    border: 1px solid rgb(71, 71, 0);
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 5px;
 }
 .indicador{
     position: absolute;
     width: 5px;
     height: 54px;
-    background: #f00;
+    background: rgba(255, 0, 0, 1);
     z-index: -1;
     transition: 0.5s;
 }
