@@ -4,6 +4,7 @@ const fin = `#${secciones[secciones.length-1].id}`
 const navContenedor = document.querySelector('nav')
 const header = document.querySelector('header')
 const navIcons = document.querySelectorAll('nav a')
+const indicador = document.querySelector('.indicador')
 const navObserver = new IntersectionObserver((entradas)=>{
     navContenedor.style.left = '0px'
     navContenedor.style.transition = 'all 1s'
@@ -24,6 +25,9 @@ const navObserver = new IntersectionObserver((entradas)=>{
                 navIcon.children[0].classList.remove("activeNav")
                 if(navIcon.hash === id){
                     navIcon.children[0].classList.add("activeNav")
+                    let altura = navIcon.getBoundingClientRect().top
+                    indicador.style.transform = `translateY(${altura - 21}px)`
+                    
                 }
             })
         }
