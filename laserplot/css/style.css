@@ -12,6 +12,9 @@ html{
 }
 body{
     scroll-behavior: smooth;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     /* background: rgba(217, 105, 105, 0.5); */
 }
 .contenedor {
@@ -25,10 +28,11 @@ header{
     height: 60px;
     top: -60px;
     position: fixed;
-    background: #fff;
-    /* outline: 1px solid blueviolet; */
+    background: linear-gradient(2deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 25%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
     text-align: center;
     z-index: 999;
+    /* outline: 1px solid green; */
+    display: flex;justify-content: center;align-items: center;
 }
 section {
     scroll-snap-align: start end;
@@ -42,4 +46,11 @@ section {
 }
 *{
     margin: 0;padding: 0;box-sizing: border-box;
+}
+.espaciocel{
+    width: 100vw;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
 }

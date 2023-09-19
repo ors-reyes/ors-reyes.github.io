@@ -26,8 +26,7 @@ const navObserver = new IntersectionObserver((entradas)=>{
                 if(navIcon.hash === id){
                     navIcon.children[0].classList.add("activeNav")
                     let altura = navIcon.getBoundingClientRect().top
-                    indicador.style.transform = `translateY(${altura - 21}px)`
-                    
+                    indicador.style.transform = `translateY(${altura - 70}px)`
                 }
             })
         }
