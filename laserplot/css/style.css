@@ -12,9 +12,9 @@ html{
 }
 body{
     scroll-behavior: smooth;
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: hidden; */
     /* background: rgba(217, 105, 105, 0.5); */
 }
 .contenedor {
