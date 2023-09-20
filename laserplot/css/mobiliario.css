@@ -5,6 +5,13 @@
     width: calc(100vw - 70px);
     height: calc(100vh - 60px);
     /* outline: 1px solid gray; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    display: none;
+    transition: 0.7s;
+    opacity: 0;
+}
+.ver{
+    opacity: 1;
 }
 .titulo{
     /* outline: 1px solid gray; */

@@ -12,6 +12,15 @@
 	.st6{clip-path:url(#SVGID_20_);fill:url(#SVGID_21_);}
 	.st7{clip-path:url(#SVGID_23_);fill:url(#SVGID_24_);}
 	.st8{clip-path:url(#SVGID_26_);fill:url(#SVGID_27_);}
+	.st0,.st1,.st2,.st3,.st4,.st5,.st6,.st7,.st8{
+		transform: translateX(100px);
+		opacity: 0;
+		animation: mundoLine 1s forwards 1.5s;
+	}
+	@keyframes mundoLine{
+		0%{transform: translateX(100px);opacity: 0;}
+		100%{transform: translateX(0px);opacity: 1;}
+	}
 </style>
 <g>
 	<g>
