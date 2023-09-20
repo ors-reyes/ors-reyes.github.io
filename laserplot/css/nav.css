@@ -32,10 +32,7 @@ nav ul li a .nav{
     border-radius: 5px;
     z-index: 1;
 }
-nav ul li a .activeNav{
-    border: 1px solid rgb(0, 0, 255);
-    border-radius: 5px;
-}
+
 .indicador{
     position: absolute;
     left: 0px;
@@ -45,4 +42,13 @@ nav ul li a .activeNav{
     z-index: -1;
     transition: 0.5s;
     border-radius: 0 5px 5px 0;
+}
+.indicador::after{
+    content: "";
+    position: absolute;
+    left: 9px;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
 }
