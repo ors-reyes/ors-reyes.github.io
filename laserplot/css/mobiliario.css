@@ -24,6 +24,11 @@
     height: 90%;
     max-height: 400px;
     position: relative;
+    background: url(../img/mobiliriario/Mobiliario-lineas.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+    /* outline: 1px solid gray; */
     /* background: rgba(0, 255, 0, 0.5); */
     /* display: flex; justify-content: center;align-items: center; */
 }
