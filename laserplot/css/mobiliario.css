@@ -103,3 +103,14 @@
     width: 100%;
     height: 100%;
 }
+.materiales{
+    bottom: 30px;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background: url(../img/mobiliriario/materiales.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* outline: 1px solid red; */
+}
