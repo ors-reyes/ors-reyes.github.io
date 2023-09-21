@@ -3,12 +3,12 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 800" style="enable-background:new 0 0 500 800;" xml:space="preserve">
 <style type="text/css">
-	.punto{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;
-		opacity: 0;
+	.punto{fill-rule:evenodd;clip-rule:evenodd;fill:#858585;
+		opacity: 1;
 	}
 	.st5{fill:none;stroke:#000;stroke-width:15;
 	stroke-dasharray: 30;stroke-dashoffset: 30;
-	animation: st5 1s forwards 2.5s;
+	animation: st5 2s infinite 2.5s;
 	}
 	.material{fill:#000;
 		opacity: 0;
@@ -35,7 +35,11 @@
 		animation: ver 1s forwards 2s;
 	}
 	@keyframes ver{0%{opacity:0;}100%{opacity:1;}}
-	@keyframes st5{0%{stroke-dashoffset:30px;}100%{stroke-dashoffset:0px;}}
+	@keyframes st5{
+		0%{stroke-dashoffset:30px;}
+		50%{stroke-dashoffset:0px;}
+		100%{stroke-dashoffset:-30px;}
+	}
 	@keyframes linea1{0%{stroke-dashoffset:400px;}100%{stroke-dashoffset:0px;}}
 	@keyframes linea2{0%{stroke-dashoffset:50px;}100%{stroke-dashoffset:0px;}}
 </style>
