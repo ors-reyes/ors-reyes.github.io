@@ -23,14 +23,18 @@
     width: calc(100vw - 70px);
     height: 90%;
     max-height: 400px;
-    position: relative;
+    /* position: relative;
     background: url(../img/mobiliriario/Mobiliario-lineas.svg);
     background-size: 80%;
     background-repeat: no-repeat;
-    background-position: 50% 90%;
+    background-position: 50% 90%; */
     /* outline: 1px solid gray; */
     /* background: rgba(0, 255, 0, 0.5); */
     /* display: flex; justify-content: center;align-items: center; */
+}
+.lineasMobil{
+    position: absolute;
+    bottom: 70px;
 }
 .tituloTxt{
     width: 70%;
@@ -64,7 +68,7 @@
     /* outline: 1px solid gray; */
 }
 .mobiliarioIMG{
-    top: 20px;
+    top: 100px;
     left: 10px;
     position: absolute;
     width: 70%;
@@ -73,7 +77,7 @@
 }
 .mobiProductos{
     position: absolute;
-    top: 20px;
+    top: 60px;
     right: 10px;
     width: 20%;
     height: 250px;
