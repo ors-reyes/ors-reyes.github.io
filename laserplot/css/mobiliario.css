@@ -4,8 +4,6 @@
     bottom: 0;
     width: calc(100vw - 70px);
     height: calc(100vh - 60px);
-    /* outline: 1px solid gray; */
-    /* background: rgba(0, 0, 0, 0.5); */
     display: none;
     transition: 0.7s;
     opacity: 0;
@@ -14,7 +12,6 @@
     opacity: 1;
 }
 .titulo{
-    /* outline: 1px solid gray; */
     width: calc(100vw - 70px);
     display: flex;
     justify-content: space-evenly;
@@ -23,14 +20,6 @@
     width: calc(100vw - 70px);
     height: 90%;
     max-height: 400px;
-    /* position: relative;
-    background: url(../img/mobiliriario/Mobiliario-lineas.svg);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: 50% 90%; */
-    /* outline: 1px solid gray; */
-    /* background: rgba(0, 255, 0, 0.5); */
-    /* display: flex; justify-content: center;align-items: center; */
 }
 .lineasMobil{
     position: absolute;
@@ -40,7 +29,6 @@
     width: 70%;
 }
 .tituloTxt h2{
-    /* outline: 1px solid gray; */
     font-size: 0.8em;
     text-align: center;
     text-align: justify;
@@ -54,7 +42,6 @@
 }
 .tituloIcon{
     padding: 5px;
-    /* outline: 1px solid gray; */
     height: auto;
     width: auto;
     min-height: 70px;
@@ -65,7 +52,6 @@
     bottom: 70px;
     width: 50%;
     height: 50%;
-    /* outline: 1px solid gray; */
 }
 .mobiliarioIMG{
     top: 100px;
@@ -73,7 +59,6 @@
     position: absolute;
     width: 70%;
     height: 250px;
-    /* background: rgba(0, 0, 0, 0.5); */
 }
 .mobiProductos{
     position: absolute;
@@ -81,11 +66,8 @@
     right: 10px;
     width: 20%;
     height: 250px;
-    /* background: rgba(0, 0, 0, 0.5); */
-    /* outline: 1px solid green; */
 }
 .mobiProductos object{
-    /* outline: 1px solid red; */
     position: absolute;
     left: 25%;
     width: 50%;
@@ -116,5 +98,4 @@
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
-    /* outline: 1px solid red; */
 }
