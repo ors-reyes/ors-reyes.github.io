@@ -23,7 +23,7 @@
 }
 .lineasMobil{
     position: absolute;
-    bottom: 70px;
+    bottom: 120px;
 }
 .tituloTxt{
     width: 70%;
@@ -90,7 +90,7 @@
     height: 100%;
 }
 .materiales{
-    bottom: 30px;
+    bottom: 70px;
     position: absolute;
     width: 100%;
     height: 80px;
