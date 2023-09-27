@@ -2,7 +2,7 @@ nav{
     position: fixed;
     top: 70px;
     left: -140px;
-    width: 70px;
+    /* width: 70px; */
     background: rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
     z-index: 999;
@@ -31,8 +31,13 @@ nav ul li a .nav{
     position: relative;
     border-radius: 5px;
     z-index: 1;
+    /* outline: 1px solid green; */
 }
-
+.navIcon{
+    position: relative;
+    width: 40px;height: 40px;
+    top: -45px;left: 5px;
+}
 .indicador{
     position: absolute;
     left: 0px;
@@ -47,9 +52,38 @@ nav ul li a .nav{
     content: "";
     position: absolute;
     left: 9px;
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     border: 1px solid rgb(255, 0, 0);
     border-radius: 5px;
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+@media screen and (min-width: 768px) {
+    nav{
+        top: 120px;
+        background: rgba(230, 230, 230, 0.5);
+        box-shadow: 1px 0px 2px rgba(200, 200, 200, 0.5);
+    }
+    nav ul{
+     width: 120px;
+     height: calc(100vh - 240px);
+    }
+    nav ul li{
+     width: 60px;
+    }
+    .indicador{
+        width: 7px;
+        height: 80px;
+        top: -66px;
+    }
+    .indicador::after{
+        content: "";
+       width: 80px;
+       height: 80px;
+       left: 24px;
+    }
+    .navIcon{
+        width: 70px;height: 70px;
+        top: -60px;
+    }
 }

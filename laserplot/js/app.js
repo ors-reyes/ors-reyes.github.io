@@ -12,7 +12,7 @@ const navObserver = new IntersectionObserver((entradas)=>{
     header.style.top = '0px'
     header.style.transition = 'all 1s'
     entradas.forEach(entrada =>{
-        console.log("as")
+        // console.log("as")
         let contSection = entrada.target.children[0]
         contSection.classList.remove("ver")
         contSection.style.display = 'none'
@@ -21,12 +21,12 @@ const navObserver = new IntersectionObserver((entradas)=>{
             if(inicio === id || fin === id){
                 navContenedor.style.left = '-140px'
                 navContenedor.style.transition = 'all 0.3s'
-                header.style.top = '-60px'
+                header.style.top = '-120px'
                 header.style.transition = 'all 0.3s'
             }
             history.pushState({}, entrada.target.innetText, id)
             navIcons.forEach(navIcon =>{
-                console.log(contSection)
+                // console.log(contSection)
                 navIcon.children[0].classList.remove("activeNav")
                 if(navIcon.hash === id){
                     setTimeout(() => {
