@@ -1,0 +1,99 @@
+.contSection{
+    position: absolute;
+    right: 0;
+    top: 120px;
+    width: calc(100vw - 120px);
+    height: calc(100vh - 150px);
+    display: none;
+    transition: 0.7s;
+    opacity: 0;
+    /* outline: 10px solid green;
+    background: rgba(0, 0, 0, 0.5); */
+}
+.sectionIn{
+    opacity: 0.1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    width: 50%;
+    height: 50%;
+
+}
+.ver{
+    opacity: 1;
+}
+.titulo{
+    /* background: rgba(255, 0, 0, 0.2); */
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.titulo h2{
+    /* outline: 1px solid black; */
+    /* width: calc(100% - 100px); */
+    width: 100%;
+    height: 100%;
+    padding: 20px 50px;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: justify;
+}
+.titulo h2 strong{
+    color: red;
+}
+.contenido{
+    /* background: rgba(0, 255, 0, 0.2); */
+    position: relative;
+    width: 100%;
+    height: calc(100% - 320px);
+}
+.conteImg{
+    /* background: rgba(0, 0, 255, 0.2); */
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.imgSvg{
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.materiales{
+    /* background: rgba(0, 0, 0, 0.2); */
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    height: 120px;
+}
+.adornoCont{
+    /* outline: 1px solid black; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+}
+.variedad{
+    /* outline: 1px solid black; */
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    height: calc(100% - 120px);
+}
+.icon{
+    /* outline: 1px solid black; */
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.5);
+    border: 1px solid whitesmoke;
+}
