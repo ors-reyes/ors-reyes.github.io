@@ -15,7 +15,7 @@
 	.st0,.st1,.st2,.st3,.st4,.st5,.st6,.st7,.st8{
 		transform: translateX(100px);
 		opacity: 0;
-		animation: mundoLine 1s forwards 1.5s;
+		animation: mundoLine 1s forwards 2s;
 	}
 	@keyframes mundoLine{
 		0%{transform: translateX(100px);opacity: 0;}

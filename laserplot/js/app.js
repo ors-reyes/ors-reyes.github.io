@@ -5,6 +5,7 @@ const navContenedor = document.querySelector('nav')
 const header = document.querySelector('header')
 const navIcons = document.querySelectorAll('nav a')
 const indicador = document.querySelector('.indicador')
+
 const navObserver = new IntersectionObserver((entradas)=>{
     navContenedor.style.left = '0px'
     navContenedor.style.transition = 'all 1s'
@@ -27,12 +28,17 @@ const navObserver = new IntersectionObserver((entradas)=>{
             navIcons.forEach(navIcon =>{
                 navIcon.children[0].classList.remove("activeNav")
                 if(navIcon.hash === id){
+                    let titulo = contSection.children[1].classList
+                    let imgSVG = contSection.children[2].children[0].classList
+                    let seccionNAV = contSection.children[3].children
+                    console.log(seccionNAV)
+                    imgSVG.remove("verTitulo")
                     setTimeout(() => {
                         contSection.style.display = 'block'
+                        titulo.add("verTitulo")
+                        setTimeout(()=>imgSVG.add("verTitulo"),500)
                     }, 500);
-                    setTimeout(() => {
-                        contSection.classList.add("ver")
-                      }, 800);
+                    setTimeout(()=>contSection.classList.add("ver"),800);
                     navIcon.children[0].classList.add("activeNav")
                     let altura = navIcon.getBoundingClientRect().top
                     indicador.style.transform = `translateY(${altura - 70}px)`
