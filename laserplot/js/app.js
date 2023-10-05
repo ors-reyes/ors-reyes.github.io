@@ -22,14 +22,30 @@ const navObserver = new IntersectionObserver((entradas)=>{
                 // header.style.top = '-200px'
         }else{
             let titulo = contSection.querySelector('.titulo')
-            let imgSecc = contSection.querySelector('.contenido .conteImg')
+            let imgSecc = contSection.querySelectorAll('.contenido .conteImg')
             let navSecc = contSection.querySelector('.navSecc')
+            let navBtn = navSecc.querySelectorAll('.navIten')
+            navBtn.forEach((btn, index) =>{
+                btn.addEventListener('click', ()=>{
+                    imgSecc.forEach(dis =>{
+                        dis.style.display = 'none'
+                        // setTimeout(()=> dis.style.display = 'none',500)
+                    })
+                    navBtn.forEach(rem =>{
+                        rem.classList.remove('act')
+                    })
+                    btn.classList.add('act')
+                    // setTimeout(()=> imgSecc[index].style.display = 'block',500)
+                    imgSecc[index].style.display = 'block'
+                    imgSecc[index].classList.add('derechaDeley')
+                })
+            })
+
             titulo.classList.add('derecha')
-            imgSecc.classList.remove('derecha')
-            setTimeout(()=>imgSecc.classList.add('derecha'),1500)
+            // imgSecc.classList.remove('derecha')
+            // setTimeout(()=>imgSecc.classList.add('derecha'),1500)
             navSecc.classList.remove('abajo')
             setTimeout(()=>navSecc.classList.add('abajo'),3000)
-            
         }
             history.pushState({}, entrada.target.innetText, id)
             navIcons.forEach(navIcon =>{

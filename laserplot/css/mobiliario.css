@@ -55,18 +55,19 @@
     border: 2px dashed red;
     opacity: 0;
 }
-.navIten img{
+.navSecc img{
     width: 90px;height: 90px;
     border-radius: 50%;
     border: 3px solid gray;
     object-fit: cover;
     cursor: pointer;
 }
-.navIten img.act{
+.navSecc img.act{
     width: 90px;height: 90px;
     border-radius: 50%;
     border: 3px solid rgb(0, 0, 0);
     object-fit: cover;
+    cursor: default;
 }
 .adornoCont{
     position: absolute;
@@ -92,6 +93,9 @@
 /* ****************** */
 .derecha{
     animation: derecha 0.5s forwards 0.5s;
+}
+.derechaDeley{
+    animation: derecha 0.5s forwards 1s;
 }
 @keyframes derecha{
     0%{transform: translateX(-50px);opacity: 0;}
