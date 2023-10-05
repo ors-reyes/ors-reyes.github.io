@@ -5,31 +5,31 @@
 <style type="text/css">
 	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:0.5;
 		stroke-dasharray: 550;stroke-dashoffset: 550;
-		animation: mundoLine 1s forwards 4s;
+		animation: mundoLine 1s forwards 5s;
 	}
 	.st1{fill:none;stroke:url(#SVGID_2_);stroke-width:1;
 		stroke-dasharray: 550;stroke-dashoffset: 550;
-		animation: mundoLine 1s forwards 4s;
+		animation: mundoLine 1s forwards 5s;
 	}
 	.st2{fill:none;stroke:url(#SVGID_3_);stroke-width:1.5;
 		stroke-dasharray: 550;stroke-dashoffset: 550;
-		animation: mundoLine 1s forwards 4s;
+		animation: mundoLine 1s forwards 5s;
 	}
 	.st3{fill:none;stroke:url(#SVGID_4_);stroke-width:2;
 		stroke-dasharray: 550;stroke-dashoffset: 550;
-		animation: mundoLine 1s forwards 4s;
+		animation: mundoLine 1s forwards 5s;
 	}
 	.st4{fill:none;stroke:url(#SVGID_5_);stroke-width:2.5;
 		stroke-dasharray: 550;stroke-dashoffset: 550;
-		animation: mundoLine 1s forwards 4s;
+		animation: mundoLine 1s forwards 5s;
 	}
 	.st5{fill:none;stroke:url(#SVGID_6_);stroke-width:3;
 		stroke-dasharray: 550;stroke-dashoffset: 550;
-		animation: mundoLine 1s forwards 4s;
+		animation: mundoLine 1s forwards 5s;
 	}
 	.st6{fill:none;stroke:url(#SVGID_7_);stroke-width:3.5;
 		stroke-dasharray: 550;stroke-dashoffset: 550;
-		animation: mundoLine 1s forwards 4s;
+		animation: mundoLine 1s forwards 5s;
 	}
 	@keyframes mundoLine{
 		0%{stroke-dashoffset:550px;}

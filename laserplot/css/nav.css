@@ -2,11 +2,14 @@ nav{
     position: fixed;
     top: 70px;
     left: -140px;
-    /* width: 70px; */
     background: rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
     z-index: 999;
     border-radius: 5px;
+}
+.navActivo{
+    left: 0;
+    transition: all 1s 0.5s;
 }
 nav ul{
     list-style: none;
@@ -31,7 +34,6 @@ nav ul li a .nav{
     position: relative;
     border-radius: 5px;
     z-index: 1;
-    /* outline: 1px solid green; */
 }
 .navIcon{
     position: relative;

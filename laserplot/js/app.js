@@ -7,11 +7,9 @@ const navIcons = document.querySelectorAll('nav a')
 const indicador = document.querySelector('.indicador')
 
 const navObserver = new IntersectionObserver((entradas)=>{
-    navContenedor.style.left = '0px'
-    navContenedor.style.transition = 'all 1s'
-    navContenedor.style.transitionDelay = '0.5s'
-    header.style.top = '0px'
-    header.style.transition = 'all 1s'
+    navContenedor.classList.add('navActivo')
+    header.classList.add('headerActivo')
+    // header.style.top = '0px'
     entradas.forEach(entrada =>{
         let contSection = entrada.target.children[0]
         contSection.classList.remove("ver")
@@ -19,24 +17,26 @@ const navObserver = new IntersectionObserver((entradas)=>{
         if(entrada.isIntersecting){
             const id = `#${entrada.target.id}`
             if(inicio === id || fin === id){
-                navContenedor.style.left = '-140px'
-                navContenedor.style.transition = 'all 0.3s'
-                header.style.top = '-200px'
-                header.style.transition = 'all 0.3s'
-            }
+                navContenedor.classList.remove('navActivo')
+                header.classList.remove('headerActivo')
+                // header.style.top = '-200px'
+        }else{
+            let titulo = contSection.querySelector('.titulo')
+            let imgSecc = contSection.querySelector('.contenido .conteImg')
+            let navSecc = contSection.querySelector('.navSecc')
+            titulo.classList.add('derecha')
+            imgSecc.classList.remove('derecha')
+            setTimeout(()=>imgSecc.classList.add('derecha'),1500)
+            navSecc.classList.remove('abajo')
+            setTimeout(()=>navSecc.classList.add('abajo'),3000)
+            
+        }
             history.pushState({}, entrada.target.innetText, id)
             navIcons.forEach(navIcon =>{
                 navIcon.children[0].classList.remove("activeNav")
                 if(navIcon.hash === id){
-                    let titulo = contSection.children[1].classList
-                    let imgSVG = contSection.children[2].children[0].classList
-                    let seccionNAV = contSection.children[3].children
-                    console.log(seccionNAV)
-                    imgSVG.remove("verTitulo")
                     setTimeout(() => {
                         contSection.style.display = 'block'
-                        titulo.add("verTitulo")
-                        setTimeout(()=>imgSVG.add("verTitulo"),500)
                     }, 500);
                     setTimeout(()=>contSection.classList.add("ver"),800);
                     navIcon.children[0].classList.add("activeNav")
